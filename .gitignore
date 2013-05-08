@@ -1,2 +1,6 @@
-
-.DS_Store
+*~
+*django*
+*nonrel
+*hg*
+*mongo*
+.*
