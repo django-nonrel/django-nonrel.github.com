@@ -1,53 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Django non-rel</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Django non-rel</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <style type="text/css">
-    body {
-      padding-top: 60px;
-      padding-bottom: 40px;
-    }
-  </style>
-  <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <nav class="navbar navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://github.com/django-nonrel">django non-rel</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li><a class="django-link" href="http://www.djangoproject.com" target="blank"><img class="django-img" src="img/django-logo-negative.svg" alt="Django"></a></li>
+        </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+  <div class="jumbotron text-center">
+    <h1>Django non-rel</h1>
+    <h3>Making Django run on non-relational databases</h2>
+    <a class="btn btn-lg btn-success" href="https://github.com/django-nonrel"><i class="fa fa-github fa-lg"></i> Github Project</a>
+  </div>
   <div class="container">
-    <div class="hero-unit">
-      <h1>Django non-rel</h1>
-      <h3>Making Django run on non-relational databases</h2>
-      <p>Django non-rel is a project to support Django on non-relational ('NoSQL') databases.<br/>Currently, we support <a href="http://www.mongodb.org/">MongoDB</a> and <a href="https://developers.google.com/appengine/">Google App Engine</a>.</p>
-      <p>All the code can be found on GitHub: <a href="https://github.com/django-nonrel">https://github.com/django-nonrel</a>.</p>
-    </div>
-
     <div class="row">
-      <div class="span4">
-        <h2>MongoDB</h2>
-
-        <ul>
-          <li><a href="https://github.com/django-nonrel/mongodb-engine">Code</a></li>
-          <li><a href="http://django-mongodb-engine.readthedocs.org/">Documentation</a></li>
-        </ul>
-      </div>
-      <div class="span4">
-        <h2>Google App Engine</h2>
-
-        <ul>
-          <li><a href="https://github.com/django-nonrel/djangoappengine">Code</a></li>
-          <li><a href="http://djangoappengine.readthedocs.org/">Documentation</a></li>
-        </ul>
-      </div>
-      <div class="span4">
-        <h2>Community</h2>
-
-        <ul>
-          <li><a href="https://groups.google.com/group/django-non-relational">Mailing list</a></li>
-          <li>#django-nonrel on Freenode</li>
-        </ul>
-      </div>
+    <div class="col-md-8">
+          <h2>About</h2>
+          <p class="lead">
+            Django non-rel is a project to support Django on non-relational (NoSQL) databases.<br/>Currently, we support <a href="http://www.mongodb.org/">MongoDB</a> and <a href="https://developers.google.com/appengine/">Google App Engine</a>.
+          </p>      
     </div>
-  </div> <!-- /container -->
+      <div class="sidebar col-md-4">
+      <ul class="list-unstyled">
+        <li>
+          <h2>MongoDB</h2>
+
+          <ul>
+            <li><a href="https://github.com/django-nonrel/mongodb-engine" target="blank">Code</a></li>
+            <li><a href="http://django-mongodb-engine.readthedocs.org/" target="blank">Documentation</a></li>
+          </ul>
+        </li>
+        <li>
+          <h2>Google App Engine</h2>
+
+          <ul>
+            <li><a href="https://github.com/django-nonrel/djangoappengine" target="blank">Code</a></li>
+            <li><a href="http://djangoappengine.readthedocs.org/" target="blank">Documentation</a></li>
+          </ul>
+          <h2>Community</h2>
+        </li>
+        <li>
+          <ul>
+            <li><a href="https://groups.google.com/group/django-non-relational" target="blank">Mailing list</a></li>
+            <li><a href="http://webchat.freenode.net/?channels=django-nonrel" target="blank">#django-nonrel</a> on Freenode</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <footer>
+      <a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangoproject120x25.gif" border="0" alt="A Django project." title="A Django project." /></a>
+    </footer>
+  </div> <!-- /container --><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
 </body>
 </html>
