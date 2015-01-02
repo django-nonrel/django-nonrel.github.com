@@ -1,0 +1,76 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*
+colors: #44b78b, #092E20
+font : Roboto;
+font-weights: 400, 300;
+*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
+body{
+	color: #092E20;
+	background-color: #FEFEFE;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+h1, h2, h3{
+	font-weight: 400;
+}
+
+a{
+	color: #44b78b;
+}
+
+a:hover, a:active{
+	color: #092E20;
+	text-decoration: none;
+}
+
+.navbar{
+	background-color: #092E20;
+	color: #FFF; 
+}
+
+.navbar a{
+	color: #FFF;
+}
+
+.jumbotron{
+	background-color: #FBFBFB;
+	font-weight: 300;
+}
+
+.jumbotron h1, h2, h3{
+	font-weight: 300;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+}
+
+.btn-success{
+	background-color: #44B78B;
+}
+
+.btn-success:hover, .btn-success:focus{
+	background-color: #55C89C;
+	border-color: #55C89C;
+}
+
+.django-img{
+	height: 30px;
+}
+
+.django-link{
+	border: none !important;
+	padding: none !important;
+}
+
+.sidebar{
+	background-color: #EDEDED;
+}
